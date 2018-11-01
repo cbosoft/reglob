@@ -1,0 +1,18 @@
+#+TITLE: Readme
+
+* Overview
+
+REGlob = Regular Expression `glob' pattern
+
+\to File listing with Regex pattern matching
+
+* Installation
+
+ - Clone this repository
+   #+BEGIN_SRC bash
+     git clone https://github.com/cbosoft/reglob
+   #+END_SRC
+ - Create simlink somewhere in python's path...
+   #+BEGIN_SRC bash
+     ln -s /path/to/reglob /usr/lib/python3.7/site-packages/reglob
+   #+END_SRC
